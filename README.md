@@ -1,6 +1,6 @@
 # Numerically stable log(1-softmax(x))
 
-This repository contains the implementation of a numerically stable log(1-softmax(x)) function in PyTorch.
+This repository contains an implementation of a numerically stable log(1-softmax(x)) function in PyTorch.
 - The implementation is located in *log1msoftmax.py* under the name *log1m_softmax_kfrank*
 - The evaluation of this function compared to the naive unstable implementation can be found in the notebook *test.ipynb*
 - The unit tests of this implementation can be found in the folder *tests*
